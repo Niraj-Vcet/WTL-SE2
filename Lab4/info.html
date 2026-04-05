@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body { padding-bottom: 90px; }
+        footer {
+            background: #212529;
+            color: white;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .info-card {
+            transition: 0.3s;
+        }
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">My Creative Gallery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link active" href="info.html">Information</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container py-5">
+    <h2 class="text-center mb-4">Website Information</h2>
+
+    <!-- Tabs -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#about">About Gallery</button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#services">Services</button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#contact">Contact</button>
+        </li>
+    </ul>
+
+    <div class="tab-content p-4 border border-top-0">
+        <div class="tab-pane fade show active" id="about">
+            <p>This gallery displays high-quality images arranged in equal grid format with hover and modal preview effects.</p>
+        </div>
+        <div class="tab-pane fade" id="services">
+            <ul>
+                <li>Responsive Web Design</li>
+                <li>Interactive UI</li>
+                <li>Creative Layouts</li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="contact">
+            <p>Email: example@email.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </div>
+
+    <!-- Image Information Section -->
+    <h3 class="text-center mt-5 mb-4">Image Information</h3>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card info-card p-3">
+                <h5>Nature Images</h5>
+                <p>High-resolution outdoor and landscape photography showcasing natural beauty.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card info-card p-3">
+                <h5>Urban Photography</h5>
+                <p>Modern cityscapes and architectural visuals captured with creative angles.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card info-card p-3">
+                <h5>Creative Shots</h5>
+                <p>Artistic compositions with advanced lighting and professional techniques.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        © 2026 My Creative Gallery | Designed with Bootstrap
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
