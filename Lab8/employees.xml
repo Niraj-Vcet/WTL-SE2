@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="employees.xsl"?>
+
+<!DOCTYPE company SYSTEM "employees.dtd">
+
+<company>
+    <employee empId="E101">
+        <name>Atharva</name>
+        <department>IT</department>
+        <designation>Developer</designation>
+        <salary>60000</salary>
+        <experience>2</experience>
+    </employee>
+
+    <employee empId="E102">
+        <name>Riya</name>
+        <department>HR</department>
+        <designation>Manager</designation>
+        <salary>75000</salary>
+        <experience>5</experience>
+    </employee>
+
+    <employee empId="E103">
+        <name>Rahul</name>
+        <department>Finance</department>
+        <designation>Analyst</designation>
+        <salary>50000</salary>
+        <experience>3</experience>
+    </employee>
+
+    <employee empId="E104">
+        <name>Sneha</name>
+        <department>IT</department>
+        <designation>Senior Developer</designation>
+        <salary>90000</salary>
+        <experience>6</experience>
+    </employee>
+
+    <employee empId="E105">
+        <name>Karan</name>
+        <department>Marketing</department>
+        <designation>Executive</designation>
+        <salary>45000</salary>
+        <experience>1</experience>
+    </employee>
+</company>

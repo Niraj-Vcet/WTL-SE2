@@ -1,0 +1,10 @@
+<!ELEMENT company (employee+)>
+
+<!ELEMENT employee (name, department, designation, salary, experience)>
+<!ATTLIST employee empId CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT designation (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT experience (#PCDATA)>
